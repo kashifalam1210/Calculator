@@ -1,0 +1,157 @@
+
+
+#calculator {
+	width: 310px;
+	height: 415px;
+	margin: 60px auto;
+	padding: 5px;
+	background-color:#FFE4E1;
+	border: solid black 3px;
+	border-radius: 20px;
+	box-shadow:7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+#total {
+	height: 70px;
+	width: 250px;
+	margin-left: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-top:10px;
+	background-color: gray;
+	text-align: right;
+	font-size: 30px;
+	font-family: 'Orbitron', sans-serif;
+	border: solid black;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+#side {
+	width: 49px;
+	float: right;
+}
+
+#side a {
+	margin: 5px;
+	display: block;
+	width: 46px;
+	height: 50px;
+	float: right;
+	padding: 0px;
+	margin: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 39px;
+	background-color:#F5F5F5;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+#numbers {
+	margin: 0px;
+}
+
+a {
+	cursor: pointer;
+}
+
+#clearanderasebuttons a {
+	display: block;
+	width: 90px;
+	height: 50px;
+	float: left;
+	padding-top: 7px;
+	margin: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	background-color:#F5F5F5;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+#equals {
+	display: block;
+	background-color: #F5F5F5;
+	color:black;
+	margin-top: 257px;
+	margin-left:165px;
+	height: 50px;
+	width: 118px;
+	float:center;
+	padding-top: 7px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 35px;
+	font-weight: bold;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+}
+
+#numbers a {
+	display: block;
+	width: 45px;
+	height: 50px;
+	float: left;
+	padding: 2px;
+	margin: 5px 15px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	background-color:#F5F5F5;
+	border-radius: 20px;
+	-webkit-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 3px 5px 2px rgba(0, 0, 0, 0.75);
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+
+
+a:hover {
+	background-color: white;
+}
+
+#numbers a:active {
+	-webkit-box-shadow: 0px 2px 0px #000000;
+	-moz-box-shadow: 0px 2px 0px #000000;
+	box-shadow: 0px 2px 0px #000000;
+	position: relative;
+	top: 7px;
+}
+
+#clearanderasebuttons a:active {
+	-webkit-box-shadow: 0px 2px 0px #000000;
+	-moz-box-shadow: 0px 2px 0px #000000;
+	box-shadow: 0px 2px 0px #000000;
+	position: relative;
+	top: 7px;
+}
+
+#operators a:active {
+	-webkit-box-shadow: 0px 2px 0px #000000;
+	-moz-box-shadow: 0px 2px 0px #000000;
+	box-shadow: 0px 2px 0px #000000;
+	position: relative;
+	top: 7px;
+}
+#equalsign a:active {
+	-webkit-box-shadow: 0px 2px 0px #000000;
+	-moz-box-shadow: 0px 2px 0px #000000;
+	box-shadow: 0px 2px 0px #000000;
+	position: relative;
+	top: 7px;
+}
